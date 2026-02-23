@@ -17,7 +17,7 @@ export default defineConfig({
   head: [
     // 0. IE浏览器检测脚本 - 必须在其他脚本之前加载
     ["script", { src: "/ie-detector-legacy.js" }],
-    
+
     // 1. 基础资源
     ["link", { rel: "icon", href: "/favicon.webp" }],
     ["meta", { name: "viewport", content: "width=device-width, initial-scale=1.0, viewport-fit=cover" }],
@@ -124,6 +124,7 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { text: "Linux 部署教程", link: "/docs/02_quick_start/deploy/linux" },
+                    { text: "NA-Tools 部署 (推荐)", link: "/docs/02_quick_start/deploy/na-tools" },
                     { text: "Windows 部署教程", link: "/docs/02_quick_start/deploy/windows" },
                     { text: "MacOS 部署教程", link: "/docs/02_quick_start/deploy/macos" }
                   ],
